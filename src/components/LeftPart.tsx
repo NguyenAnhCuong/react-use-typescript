@@ -19,6 +19,9 @@ const Leftpart = () => {
                 <a href="#about">About</a>
               </li>
               <li>
+                <a href="#skills">Skill</a>
+              </li>
+              <li>
                 <a href="#services">Projects</a>
               </li>
               <li>

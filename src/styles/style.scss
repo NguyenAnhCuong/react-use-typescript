@@ -1137,8 +1137,8 @@ img.svg {
   }
 
   background-color: #f6f7fd;
-  padding: 90px 0px;
-  margin-bottom: 100px;
+  padding-top: 90px;
+  // margin-bottom: 100px;
 
   .leftbox {
     width: 35%;
@@ -1172,6 +1172,10 @@ img.svg {
     box-sizing: border-box;
 
     /* Opera/IE 8+ */
+  }
+  &:last-child {
+    padding-bottom: 90px;
+    margin-bottom: 100px;
   }
 }
 
