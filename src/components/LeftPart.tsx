@@ -22,10 +22,10 @@ const Leftpart = () => {
                 <a href="#skills">Skill</a>
               </li>
               <li>
-                <a href="#services">Projects</a>
+                <a href="#projects">Projects</a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -34,27 +34,12 @@ const Leftpart = () => {
               <ul>
                 <li>
                   <a href="#">
-                    <i className="xcon-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="xcon-twitter"></i>
+                    <i className="xcon-facebook"></i>//fix
                   </a>
                 </li>
                 <li>
                   <a href="#">
                     <i className="xcon-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="xcon-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="xcon-behance"></i>
                   </a>
                 </li>
               </ul>

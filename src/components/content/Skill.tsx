@@ -9,15 +9,9 @@ const Skill = () => {
             <div className="inner_wrap">
               <div className="leftbox">
                 <div className="arlo_tm_mini_title_holder">
-                  <h4>Some About my Abilities</h4>
+                  <h4>Kỹ năng Frontend</h4>
+                  <li>Framework: ReactJS</li>
                 </div>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since. Lorem Ipsum has been the
-                  industry. Lorem Ipsum has been the industry's standard dummy
-                  text since. Lorem Ipsum is simply.
-                </p>
               </div>
               <div className="rightbox">
                 <div className="progress_bar_wrap_total">
@@ -33,19 +27,19 @@ const Skill = () => {
                       data-color="#000"
                     >
                       <span>
-                        <span className="label">
-                          Wordpress -{" "}
-                          <span className="experience">
-                            5 years of experience
-                          </span>
-                        </span>
+                        <span className="label">HTML/CSS/JavaScript</span>
                         <span className="number">95%</span>
                       </span>
                       <div className="arlo_tm_bar_bg">
                         {/* <div className="arlo_tm_bar_wrap">
                           <div className="arlo_tm_bar"></div>
                         </div> */}
-                        <ProgressBar completed={60} bgColor="red" />
+                        <ProgressBar
+                          completed={95}
+                          bgColor="#333"
+                          height="8px"
+                          isLabelVisible={false}
+                        />
                       </div>
                     </div>
                     <div
@@ -54,18 +48,16 @@ const Skill = () => {
                       data-color="#000"
                     >
                       <span>
-                        <span className="label">
-                          Css -{" "}
-                          <span className="experience">
-                            3 years of experience
-                          </span>
-                        </span>
+                        <span className="label">React.Js</span>
                         <span className="number">85%</span>
                       </span>
                       <div className="arlo_tm_bar_bg">
-                        <div className="arlo_tm_bar_wrap">
-                          <div className="arlo_tm_bar"></div>
-                        </div>
+                        <ProgressBar
+                          completed={85}
+                          bgColor="#333"
+                          height="8px"
+                          isLabelVisible={false}
+                        />
                       </div>
                     </div>
                     <div
@@ -74,40 +66,23 @@ const Skill = () => {
                       data-color="#000"
                     >
                       <span>
-                        <span className="label">
-                          HTML -{" "}
-                          <span className="experience">
-                            4 years of experience
-                          </span>
-                        </span>
-                        <span className="number">75%</span>
+                        <span className="label">Design UI/UX</span>
+                        <span className="number">85%</span>
                       </span>
                       <div className="arlo_tm_bar_bg">
-                        <div className="arlo_tm_bar_wrap">
-                          <div className="arlo_tm_bar"></div>
-                        </div>
+                        <ProgressBar
+                          completed={85}
+                          bgColor="#333"
+                          height="8px"
+                          isLabelVisible={false}
+                        />
                       </div>
                     </div>
                     <div
                       className="arlo_tm_progress"
                       data-value="90"
                       data-color="#000"
-                    >
-                      <span>
-                        <span className="label">
-                          After Effect -{" "}
-                          <span className="experience">
-                            6 years of experience
-                          </span>
-                        </span>
-                        <span className="number">90%</span>
-                      </span>
-                      <div className="arlo_tm_bar_bg">
-                        <div className="arlo_tm_bar_wrap">
-                          <div className="arlo_tm_bar"></div>
-                        </div>
-                      </div>
-                    </div>
+                    ></div>
                   </div>
                 </div>
               </div>
@@ -119,15 +94,9 @@ const Skill = () => {
             <div className="inner_wrap">
               <div className="leftbox">
                 <div className="arlo_tm_mini_title_holder">
-                  <h4>Some About my Abilities</h4>
+                  <h4>Kỹ năng Backend</h4>
+                  <li>Framework: Express</li>
                 </div>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since. Lorem Ipsum has been the
-                  industry. Lorem Ipsum has been the industry's standard dummy
-                  text since. Lorem Ipsum is simply.
-                </p>
               </div>
               <div className="rightbox">
                 <div className="progress_bar_wrap_total">
@@ -143,18 +112,19 @@ const Skill = () => {
                       data-color="#000"
                     >
                       <span>
-                        <span className="label">
-                          Wordpress -{" "}
-                          <span className="experience">
-                            5 years of experience
-                          </span>
-                        </span>
+                        <span className="label">HTML/CSS/JavaScript</span>
                         <span className="number">95%</span>
                       </span>
                       <div className="arlo_tm_bar_bg">
-                        <div className="arlo_tm_bar_wrap">
+                        {/* <div className="arlo_tm_bar_wrap">
                           <div className="arlo_tm_bar"></div>
-                        </div>
+                        </div> */}
+                        <ProgressBar
+                          completed={95}
+                          bgColor="#333"
+                          height="8px"
+                          isLabelVisible={false}
+                        />
                       </div>
                     </div>
                     <div
@@ -163,18 +133,16 @@ const Skill = () => {
                       data-color="#000"
                     >
                       <span>
-                        <span className="label">
-                          Css -{" "}
-                          <span className="experience">
-                            3 years of experience
-                          </span>
-                        </span>
+                        <span className="label">React.Js</span>
                         <span className="number">85%</span>
                       </span>
                       <div className="arlo_tm_bar_bg">
-                        <div className="arlo_tm_bar_wrap">
-                          <div className="arlo_tm_bar"></div>
-                        </div>
+                        <ProgressBar
+                          completed={85}
+                          bgColor="#333"
+                          height="8px"
+                          isLabelVisible={false}
+                        />
                       </div>
                     </div>
                     <div
@@ -183,40 +151,23 @@ const Skill = () => {
                       data-color="#000"
                     >
                       <span>
-                        <span className="label">
-                          HTML -{" "}
-                          <span className="experience">
-                            4 years of experience
-                          </span>
-                        </span>
-                        <span className="number">75%</span>
+                        <span className="label">Design UI/UX</span>
+                        <span className="number">85%</span>
                       </span>
                       <div className="arlo_tm_bar_bg">
-                        <div className="arlo_tm_bar_wrap">
-                          <div className="arlo_tm_bar"></div>
-                        </div>
+                        <ProgressBar
+                          completed={85}
+                          bgColor="#333"
+                          height="8px"
+                          isLabelVisible={false}
+                        />
                       </div>
                     </div>
                     <div
                       className="arlo_tm_progress"
                       data-value="90"
                       data-color="#000"
-                    >
-                      <span>
-                        <span className="label">
-                          After Effect -{" "}
-                          <span className="experience">
-                            6 years of experience
-                          </span>
-                        </span>
-                        <span className="number">90%</span>
-                      </span>
-                      <div className="arlo_tm_bar_bg">
-                        <div className="arlo_tm_bar_wrap">
-                          <div className="arlo_tm_bar"></div>
-                        </div>
-                      </div>
-                    </div>
+                    ></div>
                   </div>
                 </div>
               </div>
