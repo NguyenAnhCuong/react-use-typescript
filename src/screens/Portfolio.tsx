@@ -1,10 +1,17 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Leftpart from "../components/LeftPart";
 import MobileMenu from "../components/mobile/menu";
 import Rightpart from "../components/RightPart";
+import { isMobile } from "react-device-detect";
 
 const Portfolio = () => {
-  const [showLeftpart, setShowLeftPart] = useState<boolean>(false);
+  const [showLeftPart, setShowLeftPart] = useState<boolean>(false);
+
+  useEffect(() => {
+    if (isMobile) {
+      setShowLeftPart(true);
+    }
+  }, [isMobile]);
 
   return (
     <>
@@ -32,14 +39,14 @@ const Portfolio = () => {
           <div className="arlo_tm_content">
             {/* <!-- LEFTPART --> */}
             <Leftpart
-              showLeftPart={showLeftpart}
+              showLeftPart={showLeftPart}
               setShowLeftPart={setShowLeftPart}
             />
             {/* <!-- /LEFTPART --> */}
 
             {/* <!-- RIGHTPART --> */}
             <Rightpart
-              showLeftPart={showLeftpart}
+              showLeftPart={showLeftPart}
               setShowLeftPart={setShowLeftPart}
             />
           </div>

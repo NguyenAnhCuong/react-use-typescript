@@ -278,6 +278,9 @@ img.svg {
               width: 35px;
             }
           }
+          &.active {
+            color: #e3872d;
+          }
         }
       }
     }
@@ -3625,6 +3628,9 @@ img.svg {
           font-family: "Montserrat";
           font-weight: 600;
           font-size: 19px;
+          &.active {
+            color: #e3872d;
+          }
         }
       }
     }

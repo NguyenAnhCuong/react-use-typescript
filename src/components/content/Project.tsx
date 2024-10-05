@@ -104,7 +104,7 @@ const Project = () => {
                 {dataProject.map((item, index) => {
                   return (
                     <>
-                      <li onClick={showModal}>
+                      <li onClick={showModal} key={`skill-${index + 1}`}>
                         <div
                           className="inner"
                           style={{ cursor: "pointer" }}
