@@ -1,8 +1,11 @@
+import { useState } from "react";
 import Leftpart from "../components/LeftPart";
 import MobileMenu from "../components/mobile/menu";
 import Rightpart from "../components/RightPart";
 
 const Portfolio = () => {
+  const [showLeftpart, setShowLeftPart] = useState<boolean>(false);
+
   return (
     <>
       <div>
@@ -28,11 +31,17 @@ const Portfolio = () => {
           {/* <!-- CONTENT --> */}
           <div className="arlo_tm_content">
             {/* <!-- LEFTPART --> */}
-            <Leftpart />
+            <Leftpart
+              showLeftPart={showLeftpart}
+              setShowLeftPart={setShowLeftPart}
+            />
             {/* <!-- /LEFTPART --> */}
 
             {/* <!-- RIGHTPART --> */}
-            <Rightpart />
+            <Rightpart
+              showLeftPart={showLeftpart}
+              setShowLeftPart={setShowLeftPart}
+            />
           </div>
         </div>
       </div>

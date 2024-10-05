@@ -5,11 +5,20 @@ import Project from "./content/Project";
 import Skill from "./content/Skill";
 import { FloatButton } from "antd";
 
-const Rightpart = () => {
+interface IProp {
+  showLeftPart: boolean;
+  setShowLeftPart: (value: boolean) => void;
+}
+
+const Rightpart = (props: IProp) => {
   return (
     <>
       {" "}
-      <div className="arlo_tm_rightpart">
+      <div
+        className={
+          props.showLeftPart ? "arlo_tm_rightpart opened" : "arlo_tm_rightpart"
+        }
+      >
         <div className="rightpart_inner">
           <HomeCV />
           //fix

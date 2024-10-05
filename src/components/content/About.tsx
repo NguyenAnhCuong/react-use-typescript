@@ -1,7 +1,22 @@
 import imageCV from "@/assets/1.jpg";
+import Parallax from "parallax-js";
+import { useEffect, useRef } from "react";
 import { TypeAnimation } from "react-type-animation";
+import logo550 from "@/assets/img/about/550x640.jpg";
 
 const About = () => {
+  const scene1 = useRef(null);
+  useEffect(() => {
+    if (scene1 && scene1.current) {
+      const parallax = new Parallax(scene1.current, {
+        relativeInput: true,
+        hoverOnly: true,
+      });
+      parallax.enable();
+      return () => parallax.disable();
+    }
+  }, []);
+
   return (
     <>
       <div className="arlo_tm_section relative" id="about">
@@ -16,16 +31,20 @@ const About = () => {
                 <div className="leftbox">
                   <div
                     className="about_image_wrap parallax"
+                    ref={scene1}
                     data-relative-input="true"
                   >
-                    <div className="image layer" data-depth="0.1">
-                      <img src="img/about/550x640.jpg" alt="550x640" />
-                      <div className="inner" data-img-url="img/about/1.jpg">
+                    <div className="image layer" data-depth="0.2">
+                      <img src={logo550} alt="550x640" />
+                      <div
+                        className="inner"
+                        style={{ backgroundImage: `url(${imageCV})` }}
+                      >
                         {/* Image */}
                       </div>
                     </div>
-                    <div className="border layer" data-depth="0.2">
-                      <img src="img/about/550x640.jpg" alt="550x640" />
+                    <div className="border layer" data-depth="0.6">
+                      <img src={logo550} alt="550x640" />
                       <div className="inner"></div>
                     </div>
                   </div>

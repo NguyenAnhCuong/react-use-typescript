@@ -1,9 +1,20 @@
 import destopLogo from "@/assets/img/logo/desktop-logo.png";
 
-const Leftpart = () => {
+interface IProp {
+  showLeftPart: boolean;
+  setShowLeftPart: (value: boolean) => void;
+}
+
+const Leftpart = (props: IProp) => {
   return (
     <>
-      <div className="arlo_tm_leftpart_wrap">
+      <div
+        className={
+          props.showLeftPart
+            ? "arlo_tm_leftpart_wrap opened"
+            : "arlo_tm_leftpart_wrap"
+        }
+      >
         <div className="leftpart_inner">
           <div className="logo_wrap">
             <a href="#">
@@ -45,8 +56,22 @@ const Leftpart = () => {
               </ul>
             </div>
           </div>
-          <a className="arlo_tm_resize" href="#">
-            <i className="xcon-angle-left"></i>
+          <a
+            className={
+              props.showLeftPart ? "arlo_tm_resize opened" : "arlo_tm_resize"
+            }
+            href="#"
+            onClick={() => {
+              props.setShowLeftPart(!props.showLeftPart);
+            }}
+          >
+            <i
+              className={
+                props.showLeftPart
+                  ? "xcon-angle-left opened"
+                  : "xcon-angle-left"
+              }
+            ></i>
           </a>
         </div>
       </div>
