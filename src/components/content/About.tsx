@@ -1,4 +1,4 @@
-import imageCV from "@/assets/1.jpg";
+import imageCV from "@/assets/1.jpg"; //fix
 import Parallax from "parallax-js";
 import { useEffect, useRef } from "react";
 import { TypeAnimation } from "react-type-animation";
@@ -85,7 +85,8 @@ const About = () => {
                       step of the design process, from discussion and
                       collaboration to concept and execution, but I find the
                       most satisfaction in seeing the finished product do
-                      everything for you that it was created to do.
+                      everything for you that it was created to do.{" "}
+                      {/* //fix */}
                     </p>
                   </div>
                   <div
@@ -117,7 +118,7 @@ const About = () => {
                         <span>
                           <label>Website:</label>{" "}
                           <a href="#" target="_blank">
-                            www
+                            www {/* //fix */}
                           </a>
                         </span>
                       </li>

@@ -21,17 +21,15 @@ const Rightpart = (props: IProp) => {
       >
         <div className="rightpart_inner">
           <HomeCV />
-          //fix
-          {/* <!-- ABOUT --> */}
+
           <About />
-          //fix
-          {/* <!-- /ABOUT --> */}
-          {/* <!-- SKILLS --> */}
+
           <Skill />
-          //fix
-          {/* Skill */}
+          {/* fix */}
+
           <Project />
-          //fix
+          {/* fix */}
+
           <Contact />
         </div>
 

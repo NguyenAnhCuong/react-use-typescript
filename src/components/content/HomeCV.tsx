@@ -1,5 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
-import avata from "@/assets/img/hero/img.jpg";
+import avata from "@/assets/img/hero/img.jpg"; //fix
 
 const HomeCV = () => {
   const handleScrollToAbout = () => {

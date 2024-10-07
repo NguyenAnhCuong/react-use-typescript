@@ -118,12 +118,15 @@ const Leftpart = (props: IProp) => {
             <div className="social_wrap">
               <ul>
                 <li>
-                  <a href="#">
-                    <i className="xcon-facebook"></i>//fix
+                  <a
+                    href="https://www.facebook.com/anhcuong.nguyen.568089"
+                    target="_blank"
+                  >
+                    <i className="xcon-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="#" target="_blank">
                     <i className="xcon-linkedin"></i>
                   </a>
                 </li>

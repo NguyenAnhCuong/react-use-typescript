@@ -33,7 +33,7 @@ const Contact = () => {
                           <label>Website:</label>
                           <span>
                             <a href="#" target="_blank">
-                              www.myCV.com
+                              www.myCV.com {/* fix */}
                             </a>
                           </span>
                         </p>
