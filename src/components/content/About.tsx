@@ -52,11 +52,14 @@ const About = () => {
                 <div className="rightbox">
                   <div className="arlo_tm_mini_title_holder">
                     <h4>
-                      I'm Alan Michaelis and{" "}
+                      I'm Nguyen Anh Cuong and{" "}
                       <TypeAnimation
                         wrapper="span"
                         speed={50}
                         repeat={Infinity}
+                        placeholder=""
+                        onPointerEnterCapture={() => {}}
+                        onPointerLeaveCapture={() => {}}
                         sequence={[
                           "Freelancer",
                           2000,
@@ -85,7 +88,10 @@ const About = () => {
                       everything for you that it was created to do.
                     </p>
                   </div>
-                  <div className="about_short_contact_wrap">
+                  <div
+                    className="about_short_contact_wrap"
+                    style={{ fontSize: "13px" }}
+                  >
                     <ul>
                       <li>
                         <span>
@@ -111,7 +117,7 @@ const About = () => {
                         <span>
                           <label>Website:</label>{" "}
                           <a href="#" target="_blank">
-                            www.mywebsite.com
+                            www
                           </a>
                         </span>
                       </li>
@@ -119,15 +125,18 @@ const About = () => {
                         <span>
                           <label>Mail:</label>{" "}
                           <a href="mailto:example@gmail.com" target="_blank">
-                            mymail&#64;gmail.com
+                            cuong1606x&#64;gmail.com
                           </a>
                         </span>
                       </li>
                       <li>
                         <span>
                           <label>Facebook:</label>{" "}
-                          <a href="#" target="_blank">
-                            &#64;myusername
+                          <a
+                            href="https://www.facebook.com/anhcuong.nguyen.568089"
+                            target="_blank"
+                          >
+                            &#64;Anh Cuong Nguyen
                           </a>
                         </span>
                       </li>

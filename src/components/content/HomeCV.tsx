@@ -44,9 +44,12 @@ const HomeCV = () => {
                         "Web Developer",
                         2000,
                         () => {
-                          console.log();
+                          console.log("Animation finished");
                         },
                       ]}
+                      placeholder=""
+                      onPointerEnterCapture={() => {}}
+                      onPointerLeaveCapture={() => {}}
                     />
                   </p>
                 </div>
