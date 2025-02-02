@@ -30,10 +30,13 @@ const Contact = () => {
                       </li>
                       <li>
                         <p>
-                          <label>Website:</label>
+                          <label>Facebook:</label>
                           <span>
-                            <a href="#" target="_blank">
-                              www.myCV.com {/* fix */}
+                            <a
+                              href="https://www.facebook.com/anhcuong.nguyen.568089"
+                              target="_blank"
+                            >
+                              &#64;Anh Cuong Nguyen
                             </a>
                           </span>
                         </p>

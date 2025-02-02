@@ -13,8 +13,8 @@ interface IProject {
     backend: string;
     member: number;
     role: string;
-    demo: string; //link deploy
-    github: string; //link github
+    demo: string;
+    github: string;
   };
 }
 
@@ -35,31 +35,33 @@ const Project = () => {
     {
       image: <IoLogoReact size={50} color="blue" />,
       title: "React.JS",
-      shortDescription: "Website quản lí list công việc cá nhân",
+      shortDescription: "Website quản lí bài thi",
       detail: {
-        description: "",
+        description:
+          "Website demo quản lí bài thi có tính năng đăng nhập,đăng kí.Thêm,sửa,xóa,xem lịch sử bài thi đã hoàn thành",
         frontend: "React",
         backend: "Node.JS (Express)",
         member: 1,
-        role: "",
+        role: "Admin",
         demo: "", //link deploy
-        github: "", //link github
+        github:
+          "https://github.com/NguyenAnhCuong/react-vite-project/tree/projectReactVite1", //link github
       },
     },
-    {
-      image: <IoLogoReact size={50} color="blue" />,
-      title: "",
-      shortDescription: "",
-      detail: {
-        description: "",
-        frontend: "React",
-        backend: "Node.JS (Express)",
-        member: 1,
-        role: "",
-        demo: "", //link deploy
-        github: "", //link github
-      },
-    },
+    // {
+    //   image: <IoLogoReact size={50} color="blue" />,
+    //   title: "",
+    //   shortDescription: "",
+    //   detail: {
+    //     description: "",
+    //     frontend: "React",
+    //     backend: "Node.JS (Express)",
+    //     member: 1,
+    //     role: "",
+    //     demo: "", //link deploy
+    //     github: "", //link github
+    //   },
+    // },
   ];
 
   return (

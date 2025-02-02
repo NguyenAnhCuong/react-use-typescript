@@ -28,38 +28,59 @@ const Skill = () => {
                     >
                       <span>
                         <span className="label">HTML/CSS/JavaScript</span>
-                        <span className="number">95%</span>
+                        <span className="number">90%</span>
                       </span>
                       <div className="arlo_tm_bar_bg">
                         {/* <div className="arlo_tm_bar_wrap">
                           <div className="arlo_tm_bar"></div>
                         </div> */}
                         <ProgressBar
-                          completed={95}
+                          completed={90}
                           bgColor="#333"
                           height="8px"
                           isLabelVisible={false}
                         />
                       </div>
                     </div>
+
                     <div
                       className="arlo_tm_progress"
                       data-value="85"
                       data-color="#000"
                     >
                       <span>
-                        <span className="label">React.Js</span>
-                        <span className="number">85%</span>
+                        <span className="label">ReactJS</span>
+                        <span className="number">80%</span>
                       </span>
                       <div className="arlo_tm_bar_bg">
                         <ProgressBar
-                          completed={85}
+                          completed={80}
                           bgColor="#333"
                           height="8px"
                           isLabelVisible={false}
                         />
                       </div>
                     </div>
+
+                    <div
+                      className="arlo_tm_progress"
+                      data-value="75"
+                      data-color="#000"
+                    >
+                      <span>
+                        <span className="label">TypeScript</span>
+                        <span className="number">75%</span>
+                      </span>
+                      <div className="arlo_tm_bar_bg">
+                        <ProgressBar
+                          completed={75}
+                          bgColor="#333"
+                          height="8px"
+                          isLabelVisible={false}
+                        />
+                      </div>
+                    </div>
+
                     <div
                       className="arlo_tm_progress"
                       data-value="75"
@@ -67,17 +88,18 @@ const Skill = () => {
                     >
                       <span>
                         <span className="label">Design UI/UX</span>
-                        <span className="number">85%</span>
+                        <span className="number">80%</span>
                       </span>
                       <div className="arlo_tm_bar_bg">
                         <ProgressBar
-                          completed={85}
+                          completed={80}
                           bgColor="#333"
                           height="8px"
                           isLabelVisible={false}
                         />
                       </div>
                     </div>
+
                     <div
                       className="arlo_tm_progress"
                       data-value="90"
@@ -112,22 +134,22 @@ const Skill = () => {
                       data-color="#000"
                     >
                       <span>
-                        <span className="label">HTML/CSS/JavaScript</span>
-                        <span className="number">95%</span>
+                        <span className="label">NodeJS</span>
+                        <span className="number">75%</span>
                       </span>
                       <div className="arlo_tm_bar_bg">
                         {/* <div className="arlo_tm_bar_wrap">
                           <div className="arlo_tm_bar"></div>
                         </div> */}
                         <ProgressBar
-                          completed={95}
+                          completed={75}
                           bgColor="#333"
                           height="8px"
                           isLabelVisible={false}
                         />
                       </div>
                     </div>
-                    <div
+                    {/* <div
                       className="arlo_tm_progress"
                       data-value="85"
                       data-color="#000"
@@ -144,25 +166,7 @@ const Skill = () => {
                           isLabelVisible={false}
                         />
                       </div>
-                    </div>
-                    <div
-                      className="arlo_tm_progress"
-                      data-value="75"
-                      data-color="#000"
-                    >
-                      <span>
-                        <span className="label">Design UI/UX</span>
-                        <span className="number">85%</span>
-                      </span>
-                      <div className="arlo_tm_bar_bg">
-                        <ProgressBar
-                          completed={85}
-                          bgColor="#333"
-                          height="8px"
-                          isLabelVisible={false}
-                        />
-                      </div>
-                    </div>
+                    </div> */}
                     <div
                       className="arlo_tm_progress"
                       data-value="90"

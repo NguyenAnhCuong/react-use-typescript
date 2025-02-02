@@ -26,7 +26,7 @@ const HomeCV = () => {
                 </div>
                 <div className="name_holder">
                   <h3>
-                    Nguyen Anh <span>Cuong</span>
+                    Nguyễn Ánh <span>Cương</span>
                   </h3>
                 </div>
                 <div className="text_typing">

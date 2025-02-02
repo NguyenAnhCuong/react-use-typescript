@@ -1,6 +1,6 @@
-import destopLogo from "@/assets/img/logo/desktop-logo.png";
 import { useEffect, useState } from "react";
 import { isMobile } from "react-device-detect";
+import avata from "@/assets/img/hero/img.jpg";
 
 interface IProp {
   showLeftPart: boolean;
@@ -52,7 +52,12 @@ const Leftpart = (props: IProp) => {
         <div className="leftpart_inner">
           <div className="logo_wrap">
             <a href="#">
-              <img src={destopLogo} alt="desktop-logo" />
+              <img
+                src={avata}
+                width={200}
+                style={{ borderRadius: "50%" }}
+                alt="desktop-logo"
+              />
             </a>
           </div>
           <div className="menu_list_wrap">
@@ -126,8 +131,8 @@ const Leftpart = (props: IProp) => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank">
-                    <i className="xcon-linkedin"></i>
+                  <a href="mailto:example@gmail.com" target="_blank">
+                    <i className="xcon-mail"></i>
                   </a>
                 </li>
               </ul>

@@ -77,16 +77,12 @@ const About = () => {
                   </div>
                   <div className="definition">
                     <p>
-                      Hi! My name is <strong>Alan Michaelis</strong>. I am a Web
-                      Developer, and I'm very passionate and dedicated to my
-                      work. With 20 years experience as a professional Web
-                      developer, I have acquired the skills and knowledge
-                      necessary to make your project a success. I enjoy every
-                      step of the design process, from discussion and
-                      collaboration to concept and execution, but I find the
-                      most satisfaction in seeing the finished product do
-                      everything for you that it was created to do.{" "}
-                      {/* //fix */}
+                      Xin chào! Tôi tên là <strong>Nguyễn Ánh Cương</strong>.
+                      Tôi là Web Developer, và tôi có niềm đam mê và nhiệt huyết
+                      với công việc của mình. Tôi thích mọi bước của quá trình
+                      thiết kế, từ thảo luận và hợp tác đến khái niệm và thực
+                      hiện, nhưng tôi thấy sự hài lòng nhất khi thấy thành phẩm
+                      làm mọi thứ cho bạn mà nó được tạo ra để làm.{" "}
                     </p>
                   </div>
                   <div
@@ -114,14 +110,14 @@ const About = () => {
                           <label>Chuyên ngành:</label> Kỹ sư Công Nghệ Thông Tin
                         </span>
                       </li>
-                      <li>
+                      {/* <li>
                         <span>
                           <label>Website:</label>{" "}
                           <a href="#" target="_blank">
-                            www {/* //fix */}
+                            www 
                           </a>
                         </span>
-                      </li>
+                      </li> */}
                       <li>
                         <span>
                           <label>Mail:</label>{" "}
